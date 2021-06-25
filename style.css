@@ -1,14 +1,14 @@
 .btn {
     display: inline-block;
     padding: 15px 25px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     font-size: 14px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #ff0000;
+    background-color: #8d1483;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
@@ -23,3 +23,32 @@
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
+.links {
+    margin-bottom: 20px;
+}
+
+html {
+    background-image: url('odev1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a:link,
+a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(27, 23, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(7, 32, 255);
+    color: white;
+}
+
+</style></head><body>
