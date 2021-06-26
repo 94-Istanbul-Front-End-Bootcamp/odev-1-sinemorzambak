@@ -1,6 +1,10 @@
 function myFunction() {
-    document.getElementById("nameSurname").innerHTML = "Sinem Morzambak";
-    document.getElementById("age").innerHTML = "21";
+    let nameSur = "Sinem Morzambak";
+    document.getElementById("nameSurname").innerHTML = nameSur;
+
+    let age = "21";
+    document.getElementById("age").innerHTML = age;
+
     button.style.visibility = "hidden";
 }
 
